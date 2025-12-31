@@ -2,7 +2,7 @@ import { TestWorkflowEnvironment } from '@temporalio/testing';
 import { before, describe, it } from 'mocha';
 import { Worker } from '@temporalio/worker';
 import { example } from '../workflows/workflows';
-import * as activities from '../activities';
+import * as activities from '../activities/order/activities';
 import assert from 'assert';
 
 describe('Example workflow', () => {
